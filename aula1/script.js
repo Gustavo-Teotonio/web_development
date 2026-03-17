@@ -75,8 +75,25 @@
 
 // console.table(tasks)
 
-let hoje = new Date()
-console.log(hoje)
+// let hoje = new Date()
+// console.log(hoje)
 
-let amanha = new Date('03-18-2026')
-console.log(amanha)
+// let amanha = new Date('03-18-2026')
+// console.log(amanha)
+
+// let pattern = /^\+55\(\d{2}\)\d{4,5}\-\d{4}$/;
+// console.log(pattern.test("+55(11)92299-0899")); // true
+// console.log(pattern.test("+55(11)2299-0899"));  // true
+
+console.log(Number("54"))
+console.log("54")
+
+String(42); // "42"
+42 + "";  // "42"
+
+Number("42"); // 42
+parseInt("42.9");  // 42
+parseFloat("42.9"); // 42.9
+
+Boolean("texto"); // true
+Boolean("");       // false
